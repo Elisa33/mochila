@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
-//import { Link as LinkS } from 'react-scroll'; 
+import { Link as LinkS } from 'react-scroll'; 
 
 export const Nav = styled.nav`
-    background-color: #CA019E;
+    background-color: #2D2828;
     height:70px;
-    /* margin-top: -70px; */
+    margin-top: -70px;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -29,7 +29,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-    color: #fff;
+    color: #E5097F;
     justify-self: flex-start;
     cursor:pointer;
     font-size: 1.5rem;
@@ -39,3 +39,86 @@ export const NavLogo = styled(LinkR)`
     font-weight:bold;
     text-decoration: none;    
 `
+
+export const MobileIcon = styled.div`
+    display: none;
+
+    @media screen and (max-width: 768px){
+        position: absolute;
+        top:1.2rem;
+        right:1.5rem;
+        background: transparent;
+        font-size: 2rem;
+        cursor: pointer;
+        outline: none;
+        display:block;
+        transform: translate()(-100%,60%);
+        color:#fff;
+}
+`
+
+export const NavMenu = styled.ul`
+    display:flex;
+    align-items:center;
+    list-style: none;
+    text-align:center;
+    /* margin-right:-22px; */
+    @media screen and (max-width: 768px){
+    display:none;
+}
+` 
+
+export const NavItem = styled.li`
+    height:70px;
+`
+
+export const NavLinks = styled(LinkS)`
+    color:white;    
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    padding: 0 1.4rem;
+    height: 100%;
+    cursor: pointer;
+    &:hover{
+        color: #E5097F;
+    }
+
+    &:active{
+        border-bottom: 3px solid #2D2828;
+    }
+`
+
+export const NavBtn = styled.nav`
+    display:flex;
+    color:#fff;
+    font-size:1.2rem;
+    align-items: center;
+    @media screen and (max-width:768px){
+        display: none;
+    }
+`
+
+export const NavBtnLink = styled(LinkR)`
+    	border-radius: 30px;
+        background: #E5097F;
+        white-space: nowrap;
+        height:40px;
+        padding: 5px 10px;
+        color:#2D2828;
+        font-size:16px;
+        outline:none;
+        border:none;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        align-self:center;
+
+        &:hover{
+            transition: all 0.2s ease-in-out;
+            background: #fff;
+            color: #2D2828;
+        }
+
+`
+
