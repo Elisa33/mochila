@@ -1,22 +1,22 @@
-import React ,{ useState }from 'react'
-import Sidebar from './../components/Sidebar/index';
-import Navbar from './../components/Navbar/index';
+import React from 'react'
 import HeroSection from './../components/HeroSection/index';
+import InfoSection from './../components/InfoSection/index';
+import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data';
+import Services from './../components/Services/index';
+import Footer from './../components/Footer/index';
 
 
 const Home = () => {
-    const [ isOpen, setIsOpen ] = useState(false);
-    const toggle = ()=> {
-        setIsOpen(!isOpen);
-    }
+   
     return (
         <>
-        {/* porque se pasan las dos cosas? porque isOpen? (porque es la variable que importa?) */}
-        {/* porque cuando hago click en el cuerpo tambien se abre el sidebar */}
-
-          <Sidebar isOpen={isOpen}  toggle={toggle}/>
-          <Navbar toggle={toggle}/>
+          
           <HeroSection/>
+          <InfoSection { ...homeObjOne }/>
+          <InfoSection { ...homeObjTwo }/>
+          <Services/>
+          <InfoSection { ...homeObjThree }/>
+          <Footer />
         </>
     )
 }

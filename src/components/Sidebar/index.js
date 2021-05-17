@@ -3,7 +3,7 @@ import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, Sidebar
 
 const Sidebar = ({isOpen, toggle}) => {
     return (
-        <>  {/* El isOpen aca, es para poder pasarl al styled? */}
+        <> 
             <SidebarContainer isOpen={isOpen} onClick={toggle}>
                 <Icon onClick={toggle}>
                     <CloseIcon />
@@ -19,7 +19,7 @@ const Sidebar = ({isOpen, toggle}) => {
                         <SidebarLink to='visits' onClick={toggle}>
                             Guided Visits
                         </SidebarLink>
-                        <SidebarLink to='contact' onClick={toggle}>
+                        <SidebarLink to='footer' onClick={toggle}>
                             Contact
                         </SidebarLink>
                     </SidebarMenu>

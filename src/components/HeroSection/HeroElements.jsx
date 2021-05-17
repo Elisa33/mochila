@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { HiArrowRight, HiChevronRight } from 'react-icons/hi'
 
 export const HeroContainer = styled.div`
-    background: black;
+    background: #3F0022;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -20,7 +20,6 @@ export const HeroContainer = styled.div`
         left:0;
         background: linear-gradient(45deg, rgba(229,9,127,1) 0%, transparent 100%);
         z-index:2;
-        /* no funciona */
         /* mix-blend-mode: overlay; */
     }
 `

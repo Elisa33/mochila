@@ -15,10 +15,9 @@ export const Button = styled(Link)`
     justify-content: center;
     align-items: center;
     transition: 0.2s ease-in-out;
-    /* porque no funciona */
     &:hover{
-        color: #fff;
+        color:  ${({primary}) => (primary ? '#black' : '#fff')};
         transition: 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? '#fff' : '#black')};
+        background: ${({primary}) => (primary ? '#fff' : 'black')};
     }
 `

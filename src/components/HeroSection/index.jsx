@@ -18,7 +18,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Enjoy the new experience in Buenos Aires</HeroH1>
-                <HeroP>Experience Now</HeroP>
+                <HeroP>Sigin page </HeroP>
                 <HeroBtnWrapper>
                     <Button to='experience' onMouseEnter={onHover} onMouseLeave={onHover}
                     primary='true'
