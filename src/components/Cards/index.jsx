@@ -11,12 +11,24 @@ const Cards = () => {
             <CardsContainer>
                 <h1>Guided Visits</h1>
                 <CardsWrapper>
-             {/*    <Card 
+                <Card 
                             src={biking}
-                            text='Historic Sites'
+                            text='San Telmo'
                             label='sites'
                             path='/services'
-                        /> */}
+                        />
+                <Card 
+                            src={biking}
+                            text='Recoleta'
+                            label='sites'
+                            path='/services'
+                        />
+                <Card 
+                            src={biking}
+                            text='Centro histórico'
+                            label='sites'
+                            path='/services'
+                        />
                    
 
                 </CardsWrapper>
