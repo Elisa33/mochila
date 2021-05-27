@@ -6,6 +6,7 @@ export const StyledCard = styled.div`
  border: 1px solid #E5097F;
  border-radius: 7px;
  width: 100%;
+ overflow: hidden;
 
 
  h2{
@@ -14,8 +15,7 @@ export const StyledCard = styled.div`
      margin: 1rem auto;
  }
  img{
-    width:90%;
-    margin: 1rem auto;
+   
 
  }
  

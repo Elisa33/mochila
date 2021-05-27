@@ -1,6 +1,8 @@
 import React from 'react';
 import { CardsContainer, CardsWrapper } from './CardsElements';
-import biking from '../../images/biking.svg';
+import rosada from '../../images/img-01.jpg';
+import boca from '../../images/img-02.jpg';
+import avenida from '../../images/img-03.jpg';
 import Card from './../CardItem/index';
 
 const Cards = () => {
@@ -12,20 +14,20 @@ const Cards = () => {
                 <h1>Guided Visits</h1>
                 <CardsWrapper>
                 <Card 
-                            src={biking}
-                            text='San Telmo'
+                            src={rosada}
+                            text='Centro Histórico'
                             label='sites'
                             path='/services'
                         />
                 <Card 
-                            src={biking}
-                            text='Recoleta'
+                            src={boca}
+                            text='La Boca'
                             label='sites'
                             path='/services'
                         />
                 <Card 
-                            src={biking}
-                            text='Centro histórico'
+                            src={avenida}
+                            text='Moderna'
                             label='sites'
                             path='/services'
                         />
