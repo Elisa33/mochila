@@ -46,19 +46,19 @@ const Navbar = ({toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>About me</NavLinks>
+                            <NavLinks to='about' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Sobre la mochila</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='stories' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Stories</NavLinks>
+                            <NavLinks to='stories' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Historias</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='guided' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Guided Visits</NavLinks>
+                            <NavLinks to='guided' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Visitas Guiadas</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='footer' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Contact</NavLinks>
+                            <NavLinks to='footer' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Contacto</NavLinks>
                         </NavItem>
                         <NavBtn to='/experiencies'>
-                            <NavBtnLink>Experiencies</NavBtnLink>
+                            <NavBtnLink>Experiencias</NavBtnLink>
                         </NavBtn>
                     </NavMenu>
                </NavbarContainer>

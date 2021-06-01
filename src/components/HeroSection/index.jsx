@@ -17,8 +17,8 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1>Enjoy the new experience in Buenos Aires</HeroH1>
-                <HeroP>Another p to use</HeroP>
+                <HeroH1>Descubrí Buenos Aires</HeroH1>
+                <HeroP>Acompañanos a llevar tu mochila de paseo por la city, y descubramos lugares únicos. </HeroP>
                 <HeroBtnWrapper>
                     <Button to='experience' onMouseEnter={onHover} onMouseLeave={onHover}
                     primary='true'

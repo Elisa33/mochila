@@ -11,21 +11,21 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarWrapper>
                     <SidebarMenu>
                         <SidebarLink to='about' onClick={toggle}>
-                            About me
+                            Sobre la mochila
                         </SidebarLink>
                         <SidebarLink to='stories' onClick={toggle}>
-                            Stories
+                            Historias
                         </SidebarLink>
                         <SidebarLink to='visits' onClick={toggle}>
-                            Guided Visits
+                            Visitas Guiadas
                         </SidebarLink>
                         <SidebarLink to='footer' onClick={toggle}>
-                            Contact
+                            Contacto
                         </SidebarLink>
                     </SidebarMenu>
                     <SidebarBtnWrap>
                         <SidebarRoute to='/experiencies'>
-                            Experiencies
+                            Experiencias
                         </SidebarRoute>
                     </SidebarBtnWrap>
                 </SidebarWrapper>
