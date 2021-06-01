@@ -34,8 +34,15 @@ export const StyledAboutMe = styled.div`
         align-self: center;
     }
     h2{
-        margin: 20px 0;
+        margin-top: 1rem;
         color: #E5097F;
+        align-self: center;
+    }
+    p{
+        align-self: center;
+        font-size: 14px;
+        margin-bottom: 1rem;
+        font-weight: normal;
     }
 
 `
