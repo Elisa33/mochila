@@ -17,7 +17,7 @@ export const StyledAbout = styled.div`
 export const StyledAboutUs = styled.div`
     margin:50px 0;
     display: grid;
-    gap:30px;
+    gap: 50px;
     grid-template-columns: 1fr;
     @media screen and (min-width: 768px){
         grid-template-columns: 1fr 1fr;
@@ -31,6 +31,7 @@ export const StyledAboutMe = styled.div`
     img{
         width: 50%;
         border-radius: 50%;
+        align-self: center;
     }
     h2{
         margin: 20px 0;
