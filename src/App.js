@@ -11,6 +11,14 @@ function App() {
   const toggle = ()=> {
       setIsOpen(!isOpen);
   }
+
+  /* const [showModal, setShowMOdal] = useState(false);
+
+  const openModal = () =>{
+    setShowMOdal(prev = !prev)
+  } */
+
+ 
   return (
     <Router>
       <Sidebar isOpen={isOpen}  toggle={toggle}/>
