@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Sidebar isOpen={isOpen}  toggle={toggle}/>
-          <Navbar toggle={toggle}/>
+      <Navbar toggle={toggle}/>
       <Switch>
           <Route path='/' component={Home} exact />
           <Route path='/experiencies' component={Experiencies} exact />

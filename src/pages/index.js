@@ -5,6 +5,7 @@ import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/
 import Services from './../components/Services/index';
 import Footer from './../components/Footer/index';
 import Cards from './../components/Cards/index';
+import AboutSection from './../components/AboutSection/index';
 
 
 
@@ -14,6 +15,7 @@ const Home = () => {
         <>
           
           <HeroSection/>
+          <AboutSection/>
           <InfoSection { ...homeObjOne }/>
           <Cards/>
           <InfoSection { ...homeObjTwo }/>
