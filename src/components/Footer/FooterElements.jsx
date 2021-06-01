@@ -5,7 +5,8 @@ export const FooterContainer = styled.footer`
     background-color: #E5097F;
 ` 
 export const FooterWrap = styled.div`
-    padding: 48px 24px;
+    width: 85%;
+    padding: 48px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,12 +19,21 @@ export const FooterTitle = styled.h2`
     color: #fff;
     font-size: 2rem;
     margin-bottom: 1rem;
+    text-align: center; 
+    @media screen and (min-width: 640px){
+        text-align: left;
+    }
+    
 ` 
 export const FooterP = styled.p`
     color: #fff;
     font-size: 0.9rem;
     font-weight: 300;
     line-height: 1.5rem;
+    text-align: center;
+    @media screen and (min-width: 768px){
+        width: 80%;
+    }
 ` 
 export const FooterInputWrapper = styled.div`
     width: 100%;

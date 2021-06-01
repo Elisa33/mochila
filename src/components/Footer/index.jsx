@@ -11,7 +11,8 @@ const Footer = () => {
         <FooterContainer id='footer'>
             <FooterWrap>
                 <FooterTitle to='/' onClick={toggleHome}>La mochila de paseo</FooterTitle>
-                <FooterP>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, blanditiis? Totam esse deleniti quis laudantium libero voluptate ipsam. Veniam dolore temporibus deserunt obcaecati blanditiis, eos error maxime pariatur molestiae maiores.</FooterP>
+                <FooterP>
+            ¿Te da fiaca salir de tu casa? inscribite a nuestro newsletter para recibir historias, notas de interes y datos de color en tu email al alcance de un solo click.</FooterP>
                 <FooterInputWrapper>
                     <FooterInput placeholder='Ingresa tu mail'></FooterInput>
                     <FooterButton to='home'>
