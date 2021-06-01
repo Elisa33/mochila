@@ -23,7 +23,7 @@ const HeroSection = () => {
                     <Button to='experience' onMouseEnter={onHover} onMouseLeave={onHover}
                     primary='true'
                     dark='true'>
-                        Get Started{hover ? <ArrowForward/> : <ArrowRight/>}
+                        Comencemos<ArrowRight/>
 
                     </Button>
                 </HeroBtnWrapper>

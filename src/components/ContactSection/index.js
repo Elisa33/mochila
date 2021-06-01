@@ -18,9 +18,9 @@ const Contact = () => {
                     spy={true}
                     exact='true'
                     offset={-80}
-                    primary={true ? 1 : 0}
-                    dark={true ? 1 : 0}
-                    dark2={false ? 1 : 0}
+                    primary={false ? 1 : 0}
+                    dark={false ? 1 : 0}
+                    dark2={true ? 1 : 0}
                     >
                         Contacto
                 </Button>
