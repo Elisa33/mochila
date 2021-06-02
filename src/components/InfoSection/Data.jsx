@@ -3,7 +3,7 @@ import exploring from '../../images/exploring.svg';
 import biking from '../../images/biking.svg';
 
 export const homeObjOne = {
-    id: 'about',
+    id: 'one',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -20,7 +20,7 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-    id: 'stories',
+    id: 'two',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -37,7 +37,7 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id: 'guided',
+    id: 'three',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,

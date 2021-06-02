@@ -20,7 +20,7 @@ const HeroSection = () => {
                 <HeroH1>Descubrí Buenos Aires</HeroH1>
                 <HeroP>Acompañanos a llevar tu mochila de paseo por la city, y descubramos lugares únicos. </HeroP>
                 <HeroBtnWrapper>
-                    <Button to='experience' onMouseEnter={onHover} onMouseLeave={onHover}
+                    <Button to='visits' onMouseEnter={onHover} onMouseLeave={onHover}
                     primary='true'
                     dark='true'>
                         Comencemos<ArrowRight/>

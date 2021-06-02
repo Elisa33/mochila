@@ -4,7 +4,7 @@ import me from '../../images/me.png';
 
 const AboutSection = () => {
     return (
-        <StyledAbout>
+        <StyledAbout id="about">
             <h3>Sobre la mochila</h3>
             La mochila de paseo es una invitación a descubrir tu propia ciudad con los ojos curiosos que cualquiera de nosotros tendría al visitar un lugar por primera vez. 
             Queremos animarte a descubrir esos sitios únicos e interesantes que despiertan sensaciones de admiración, conexión y creatividad; acompañarte a percibir tu entorno diario de una manera más abierta, integradora y completa, aprehendiendo el pasado y el presente de cada lugar que visitemos juntos. Nuestra misión es que te lleves, además de datos, sobre todo una experiencia.

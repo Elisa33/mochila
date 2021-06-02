@@ -19,12 +19,11 @@ const Home = () => {
           
           <HeroSection/>
           <AboutSection/>
-          <InfoSection { ...homeObjOne }/>
+          <InfoSection { ...homeObjOne } id="visits"/>
+          <InfoSection { ...homeObjTwo }/>
+          <InfoSection { ...homeObjThree }/>
           <Cards/>
           <Services/>
-          <InfoSection { ...homeObjTwo }/>
-
-          <InfoSection { ...homeObjThree }/>
           <ContactSection/>
           <Footer />
         </>

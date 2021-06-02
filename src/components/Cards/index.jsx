@@ -10,8 +10,8 @@ const Cards = () => {
         <>  
 
             
-            <CardsContainer>
-                <h1>Guided Visits</h1>
+            <CardsContainer id="stories">
+                <h1>Historias</h1>
                 <CardsWrapper>
                 <Card 
                             src={rosada}
