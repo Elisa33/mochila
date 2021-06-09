@@ -6,7 +6,7 @@ export const CardsContainer = styled.div`
     margin: 2rem auto;
     h1{
         text-align: center;
-        color: #E5097F;
+        color: #FD475D;
         padding-bottom: 2rem;
     }
 `

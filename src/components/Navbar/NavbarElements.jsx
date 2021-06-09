@@ -3,8 +3,8 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll'; 
 
 export const Nav = styled.nav`
-    background-color: ${({ scrollNav}) => (scrollNav ? '#3f0022': 'transparent')};
-    /* background-color: #3F0022; */
+    background-color: ${({ scrollNav}) => (scrollNav ? '#FEB396': 'transparent')};
+    /* background-color: #FEB396; */
     height:70px;
     margin-top: -70px;
     display: flex;
@@ -31,7 +31,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-    color: #E5097F;
+    color: #FD475D;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -83,10 +83,10 @@ export const NavLinks = styled(LinkS)`
     height: 100%;
     cursor: pointer;
     &:hover{
-        color: #E5097F;
+        color: #FD475D;
     }
     &:active{
-        border-bottom: 3px solid #E5097F;
+        border-bottom: 3px solid #FD475D;
     }
 `
 
@@ -100,10 +100,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     	border-radius: 50px;
-        background: #E5097F;
+        background: #FD475D;
         white-space: nowrap;
         padding: 10px 22px;
-        color: #3F0022;
+        color: #fff;
         font-size: 16px;
         outline: none;
         border: none;
@@ -113,7 +113,7 @@ export const NavBtnLink = styled(LinkR)`
         &:hover{
             transition: all 0.2s ease-in-out;
             background: #fff;
-            color: #3F0022;
+            color: #FD475D;
         }
 `
 

@@ -18,7 +18,7 @@ export const HeroContainer = styled.div`
         right:0;
         bottom:0;
         left:0;
-        background: linear-gradient(45deg, rgba(229,9,127,1) 0%, transparent 100%);
+        background: linear-gradient(45deg, rgba(253,71,93,1) 0%, transparent 100%);
         z-index:2;
         /* mix-blend-mode: overlay; */
     }

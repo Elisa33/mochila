@@ -4,7 +4,7 @@ export const StyledCard = styled.div`
  display: flex;
  flex-direction: column;
  box-shadow: 0 8px 6px -6px #eee;
- //border: 1px solid #E5097F;
+ //border: 1px solid #FD475D;
  border-radius: 7px;
  width: 100%;
  overflow: hidden;
@@ -13,7 +13,7 @@ export const StyledCard = styled.div`
  h2{
     text-align: center;
     font-size: 1.2rem;
-     color: #E5097F;
+     color: #FD475D;
      margin: 1rem auto;
  }
  img{

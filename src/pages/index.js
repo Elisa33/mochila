@@ -3,7 +3,6 @@ import HeroSection from './../components/HeroSection/index';
 import AboutSection from './../components/AboutSection/index';
 import InfoSection from './../components/InfoSection/index';
 import Services from './../components/Services/index';
-import Cards from './../components/Cards/index';
 import ContactSection from './../components/ContactSection/index';
 import Footer from './../components/Footer/index';
 
@@ -22,7 +21,6 @@ const Home = () => {
           <InfoSection { ...homeObjOne } id="visits"/>
           <InfoSection { ...homeObjTwo }/>
           <InfoSection { ...homeObjThree }/>
-          <Cards/>
           <Services/>
           <ContactSection/>
           <Footer />

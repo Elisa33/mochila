@@ -15,7 +15,7 @@ export const homeObjOne = {
     img: adventure,
     alt: 'imagen',
     dark: true,
-    primary: true,
+    primary: false,
     darkText: false
 }
 
@@ -32,7 +32,7 @@ export const homeObjTwo = {
     img: exploring,
     alt: 'imagen',
     dark: false,
-    primary: false,
+    primary: true,
     darkText: true
 }
 
@@ -49,6 +49,6 @@ export const homeObjThree = {
     img: biking,
     alt: 'imagen',
     dark: true,
-    primary: true,
+    primary: false,
     darkText: false
 }

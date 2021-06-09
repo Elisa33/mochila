@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
    color: #fff;
-   background: ${({lightBg}) => (lightBg ? 'white':'#3F0022')}; 
+   background: ${({lightBg}) => (lightBg ? 'white':'#FEB396')}; 
    @media screen and (max-width:768px){
     padding: 100px 0;
    }
@@ -10,11 +10,9 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 860px;
     width: 100%;
     max-width: 1100px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 1rem auto;
     padding: 0 24px;
     justify-content: center;
 `
@@ -40,11 +38,11 @@ export const Column2 = styled.div`
 `
 export const TextWrapper = styled.div`
     max-width: 540px;
-    padding-top: 0; 
-    padding-bottom: 60px;
+    padding: 3rem 0; 
+   /*  padding-bottom: 60px; */
 `
 export const TopLine = styled.div`
-    color: #E5097F;
+    color: #FD475D;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -54,10 +52,10 @@ export const TopLine = styled.div`
 `
 export const Heading = styled.h1`
     margin-bottom: 24px;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? '#f7f8fa':'#3F0022')}; 
+    color: ${({lightText}) => (lightText ? '#f7f8fa':'#FEB396')}; 
     @media screen and (max-width:480px){
      font-size: 32px;
     }
@@ -67,7 +65,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => darkText ? '#3F0022' :'#fff'};
+    color: ${({darkText}) => darkText ? '#FEB396' :'#fff'};
 `
 export const BtnWrap = styled.div`
     display: flex;

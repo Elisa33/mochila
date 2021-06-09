@@ -8,23 +8,23 @@ import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesI
 
 const Services = () => {
     return (
-        <ServicesContainer id="services">
+        <ServicesContainer id="stories">
             <object type="image/svg+xml" data={Animated}>svg-animation</object>
             <ServicesH1>Our Services</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                    <ServicesH2>Reduce Expenses</ServicesH2>
+                    <ServicesH2>San Telmo</ServicesH2>
                     <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />
-                    <ServicesH2>Virtual Offices</ServicesH2>
+                    <ServicesH2>Monserrat</ServicesH2>
                     <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3} />
-                    <ServicesH2>Premium Benefits</ServicesH2>
+                    <ServicesH2>En bici</ServicesH2>
                     <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
                 </ServicesCard>
 

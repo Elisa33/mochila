@@ -1,15 +1,16 @@
 import styled from 'styled-components'
 
 export const StyledAbout = styled.div`
-    width: 85%;
+    max-width: 1100px;
+    padding: 0 30px;
     margin: 60px auto;
     font-weight: lighter;
     font-size: 18px;
     line-height: 26px;
     h3{
-        font-size: 20px;
+        font-size: 26px;
         margin-bottom: 20px;
-        color: #E5097F;
+        color: #FD475D;
         text-transform: uppercase;
     }
 
@@ -29,13 +30,13 @@ export const StyledAboutMe = styled.div`
     font-size: 16px;
     line-height: 24px;
     img{
-        width: 50%;
+        width: 40%;
         border-radius: 50%;
         align-self: center;
     }
     h2{
         margin-top: 1rem;
-        color: #E5097F;
+        color: #FD475D;
         align-self: center;
     }
     p{
