@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { HiArrowRight, HiChevronRight } from 'react-icons/hi'
+import {  HiChevronRight } from 'react-icons/hi'
 
 export const HeroContainer = styled.div`
     background: #3F0022;

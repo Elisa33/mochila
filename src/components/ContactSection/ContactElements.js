@@ -25,16 +25,17 @@ export const StyledContactP = styled.p`
     line-height: 1.2rem;
     font-weight: lighter;
     h2{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin: 2rem auto;
         line-height: 2rem;
         color: #FD475D;
     }
     p{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 `
 
 export const ButtonWrap = styled.div`
-     margin: 2rem auto;
+    width: 65%;
+     /* margin: 2rem auto; */
 `
