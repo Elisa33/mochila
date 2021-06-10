@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const FooterContainer = styled.footer`
-    background-color: #FD475D;
+    background-color: #AED4D5  ;
 ` 
 export const FooterWrap = styled.div`
     width: 85%;
