@@ -17,13 +17,13 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1>Descubrí Buenos Aires</HeroH1>
-                <HeroP>Acompañanos a llevar tu mochila de paseo por la city, y descubramos lugares únicos. </HeroP>
+                <HeroH1>¿Vamos a pasear?</HeroH1>
+                <HeroP>Acompañanos a llevar tu mochila de paseo por la ciudad, y descubramos lugares únicos. </HeroP>
                 <HeroBtnWrapper>
                     <Button to='visits' onMouseEnter={onHover} onMouseLeave={onHover}
                     primary='true'
                     dark='true'>
-                        Comencemos<ArrowRight/>
+                        Quiero saber más!<ArrowRight/>
 
                     </Button>
                 </HeroBtnWrapper>
