@@ -64,7 +64,7 @@ export const FooterButton = styled.button`
     background-color: #FBAFAF;
     font-size: 14px;
     &:hover{
-        color: coral;
+        background-color: #FD475D ;
         transition: 0.3s ease-out;
     }
 ` 

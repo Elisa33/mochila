@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const StyledAbout = styled.div`
     max-width: 1100px;
     padding: 0 30px;
-    margin: 60px auto;
+    margin: 5rem auto;
     font-weight: lighter;
     font-size: 18px;
     line-height: 26px;
