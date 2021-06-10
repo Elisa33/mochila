@@ -2,7 +2,7 @@ import React from 'react';
 import Icon1 from '../../images/san-telmo.jpg'
 import Icon2 from '../../images/montserrat.jpg'
 import Icon3 from '../../images/en-bici.jpg'
-import Animated from '../../images/animated.svg';
+//import Animated from '../../images/animated.svg';
 
 import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesImg, ServicesH2, ServicesP} from './ServicesElements';
 
