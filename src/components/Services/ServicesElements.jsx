@@ -41,7 +41,7 @@ export const ServicesCard = styled.div`
     align-items: center;
     border-radius:10px;
     max-height :340px;
-    padding: 30px;
+    overflow: hidden;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
 
@@ -71,12 +71,15 @@ export const ServicesCard = styled.div`
     }
 ` 
 
-export const ServicesIcon = styled.img`
-    height: 160px;
-    width:160px;
+export const ServicesImg = styled.img`
+    min-height: 170px;
+    width:100%;
+    object-fit: cover;
     margin-bottom: 10px;
 ` 
-
+export const ServicesTexts = styled.div`
+    padding: 30px;
+`
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
     color: #FD475D ;
