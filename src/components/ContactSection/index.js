@@ -5,7 +5,7 @@ import contactimg from '../../images/exploring.svg'
 
 const Contact = () => {
     return (
-        <StyledContact>
+        <StyledContact id='contact'>
             <StyledContactWrap>
                 <StyledContactP>
                 <p>Sumate a nuestros recorridos peatonales o en bici y acompañanos a llevar tu mochila de paseo por la city.</p>

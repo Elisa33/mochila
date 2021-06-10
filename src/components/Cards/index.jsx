@@ -10,7 +10,7 @@ const Cards = () => {
         <>  
 
             
-            <CardsContainer id="stories">
+            <CardsContainer id="guided">
                 <h1>Historias</h1>
                 <CardsWrapper>
                 <Card 

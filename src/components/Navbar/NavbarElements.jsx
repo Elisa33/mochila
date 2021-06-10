@@ -83,10 +83,10 @@ export const NavLinks = styled(LinkS)`
     height: 100%;
     cursor: pointer;
     &:hover{
-        color: #FD475D;
+        font-weight: bold;
     }
     &:active{
-        border-bottom: 3px solid #FD475D;
+        border-bottom: 3px solid #fff;
     }
 `
 

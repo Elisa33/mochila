@@ -46,16 +46,16 @@ const Navbar = ({toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Sobre la mochila</NavLinks>
+                            <NavLinks to='about' smooth={true} duration={500} spy={true}  offset={-100} activeClass='active'>Sobre la mochila</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='stories' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Historias</NavLinks>
+                            <NavLinks to='stories' smooth={true} duration={500} spy={true}  offset={-70} activeClass='active'>Historias</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='guided' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Visitas Guiadas</NavLinks>
+                            <NavLinks to='guided' smooth={true} duration={500} spy={true}  offset={-100} activeClass='active'>Visitas Guiadas</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='footer' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Contacto</NavLinks>
+                            <NavLinks to='contact' smooth={true} duration={500} spy={true}  offset={-100} activeClass='active'>Contacto</NavLinks>
                         </NavItem>
                         <NavBtn to='/experiencies'>
                             <NavBtnLink scrollNav={scrollNav}>Experiencias</NavBtnLink>

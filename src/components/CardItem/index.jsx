@@ -5,7 +5,7 @@ import { StyledCard } from './CardItemElements';
 const Card = ({ src, text}) => {
     return (
  
-            <StyledCard>
+            <StyledCard id='guided'>
                 <img src={src} alt="" />
                 <h2>{text}</h2>
             </StyledCard>

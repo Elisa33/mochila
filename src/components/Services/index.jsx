@@ -8,9 +8,9 @@ import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesI
 
 const Services = () => {
     return (
-        <ServicesContainer id="stories">
+        <ServicesContainer id="guided">
             {/* <object type="image/svg+xml" data={Animated}>svg-animation</object> */}
-            <ServicesH1>Our Services</ServicesH1>
+            <ServicesH1>Visitas guiadas</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesImg src={Icon1} />
