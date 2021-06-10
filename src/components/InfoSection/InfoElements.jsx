@@ -38,7 +38,7 @@ export const Column2 = styled.div`
 `
 export const TextWrapper = styled.div`
     max-width: 540px;
-    padding: 3rem 0; 
+    padding: 1rem 0; 
    /*  padding-bottom: 60px; */
 `
 export const TopLine = styled.div`
@@ -73,12 +73,15 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
+    display:flex;
+    align-items: center;
+    justify-content: center;
     max-width: 555px;
     height: 100%;
 `
 
 export const Img = styled.img`
-    width:100%;
-    margin: 0 0 10px 0;
+    width:80%;
+    margin: 2rem 0;
     padding-right: 0;
 ` 

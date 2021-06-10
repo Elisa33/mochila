@@ -38,7 +38,7 @@ const Navbar = ({toggle}) => {
             <IconContext.Provider value={{ color: '#fff'}}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                   <NavLogo to='/' onClick={toggleHome}>
+                   <NavLogo to='/' onClick={toggleHome} scrollNav={scrollNav}>
                        <h1>Mochila</h1>
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
@@ -58,7 +58,7 @@ const Navbar = ({toggle}) => {
                             <NavLinks to='footer' smooth={true} duration={500} spy={true}  offset={0} activeClass='active'>Contacto</NavLinks>
                         </NavItem>
                         <NavBtn to='/experiencies'>
-                            <NavBtnLink>Experiencias</NavBtnLink>
+                            <NavBtnLink scrollNav={scrollNav}>Experiencias</NavBtnLink>
                         </NavBtn>
                     </NavMenu>
                </NavbarContainer>

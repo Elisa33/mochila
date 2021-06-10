@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll'; 
 
 export const Nav = styled.nav`
-    background-color: ${({ scrollNav}) => (scrollNav ? '#ffccbf': 'transparent')};
+    background-color: ${({ scrollNav}) => (scrollNav ? '#FD475D ': 'transparent')};
     /* background-color: #ffccbf; */
     height:70px;
     margin-top: -70px;
@@ -31,7 +31,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-    color: #FD475D;
+    color: ${({ scrollNav}) => (scrollNav ? '#fff': '#FD475D')};
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -100,10 +100,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     	border-radius: 50px;
-        background: #FD475D;
+        background: ${({ scrollNav}) => (scrollNav ? '#fff': '#FD475D')};
         white-space: nowrap;
         padding: 10px 22px;
-        color: #fff;
+        color: ${({ scrollNav}) => (scrollNav ? '#FD475D': '#fff')};
         font-size: 16px;
         outline: none;
         border: none;
@@ -112,8 +112,8 @@ export const NavBtnLink = styled(LinkR)`
         text-decoration: none;
         &:hover{
             transition: all 0.2s ease-in-out;
-            background: #fff;
-            color: #FD475D;
+            background: ${({ scrollNav}) => (scrollNav ? '#F9CC87  ': '#fff')};
+            color: ${({ scrollNav}) => (scrollNav ? '#fff': '#FD475D')}
         }
 `
 

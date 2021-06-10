@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9288d69d.chunk.css",
+    "main.js": "/static/js/main.853899d9.chunk.js",
+    "main.js.map": "/static/js/main.853899d9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2ca6b6e6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2ca6b6e6.js.map",
+    "static/js/2.05bd2c17.chunk.js": "/static/js/2.05bd2c17.chunk.js",
+    "static/js/2.05bd2c17.chunk.js.map": "/static/js/2.05bd2c17.chunk.js.map",
+    "static/js/3.c9700a42.chunk.js": "/static/js/3.c9700a42.chunk.js",
+    "static/js/3.c9700a42.chunk.js.map": "/static/js/3.c9700a42.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9288d69d.chunk.css.map": "/static/css/main.9288d69d.chunk.css.map",
+    "static/js/2.05bd2c17.chunk.js.LICENSE.txt": "/static/js/2.05bd2c17.chunk.js.LICENSE.txt",
+    "static/media/adventure-map.ae21c016.svg": "/static/media/adventure-map.ae21c016.svg",
+    "static/media/adventure.e53f7948.svg": "/static/media/adventure.e53f7948.svg",
+    "static/media/animated.1365d2aa.svg": "/static/media/animated.1365d2aa.svg",
+    "static/media/around.7a3f2b37.svg": "/static/media/around.7a3f2b37.svg",
+    "static/media/biking.cfbe7c76.svg": "/static/media/biking.cfbe7c76.svg",
+    "static/media/exploring.0f0f030b.svg": "/static/media/exploring.0f0f030b.svg",
+    "static/media/me.95ac8371.png": "/static/media/me.95ac8371.png",
+    "static/media/mobile.49eee6c8.svg": "/static/media/mobile.49eee6c8.svg",
+    "static/media/video.60ee97d8.mp4": "/static/media/video.60ee97d8.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ca6b6e6.js",
+    "static/js/2.05bd2c17.chunk.js",
+    "static/css/main.9288d69d.chunk.css",
+    "static/js/main.853899d9.chunk.js"
+  ]
+}
