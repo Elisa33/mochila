@@ -45,5 +45,24 @@ export const StyledAboutMe = styled.div`
         margin-bottom: 1rem;
         font-weight: normal;
     }
+    a{
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem auto;
+        align-self: center;
+        font-size: 2rem;
+        color: #fff;
+        background: #FD475D;
+        border-radius: 50%;
+        padding: 20px;
+        text-decoration: none;
+        &:hover{
+            font-size:2.5rem ;
+            transition: all 0.2s ease-in-out;
+        }
+    }
 
 `

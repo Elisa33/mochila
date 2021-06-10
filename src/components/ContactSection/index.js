@@ -12,9 +12,8 @@ const Contact = () => {
 
                 <p>En nuestra mochila guardamos mapas, planos, datos, experiencias y muchas cosas más que esperan ser develadas.</p> 
                 <h2>¿Te animas a descubrirlas?</h2>
-               
                  <ButtonWrap>
-                    <Button to='home'
+                    <Button to='footer'
                         smooth={true}
                         duration={500}
                         spy={true}
@@ -27,6 +26,7 @@ const Contact = () => {
                             Contacto
                     </Button>
                  </ButtonWrap>
+                 
                 
                 </StyledContactP>
                 <img src={contactimg} alt="" />

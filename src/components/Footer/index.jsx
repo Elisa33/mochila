@@ -22,9 +22,9 @@ const Footer = () => {
                 <SocialMediaWrap>  
                 <WebSiteRights>La mochila &copy; {new Date().getFullYear()} All Rights reserved</WebSiteRights>                 
                     <SocialIcons>
-                        <SocialIconLink href='/' target='_blank' arial-label='Instagram'><FaInstagram/></SocialIconLink>
+                        <SocialIconLink href='https://www.instagram.com/lamochiladepaseo/?hl=es-la' target='_blank' arial-label='Instagram'><FaInstagram/></SocialIconLink>
                         <SocialIconLink href='/' target='_blank' arial-label='Twiiter'><FaTwitter/></SocialIconLink>
-                        <SocialIconLink href='/' target='_blank' arial-label='Facebook'><FaFacebook/></SocialIconLink>
+                        <SocialIconLink href='https://www.facebook.com/profile.php?id=100069048351200' target='_blank' arial-label='Facebook'><FaFacebook/></SocialIconLink>
                     </SocialIcons>
                     
                 </SocialMediaWrap>
