@@ -38,30 +38,30 @@ const Navbar = ({toggle}) => {
             <IconContext.Provider value={{ color: '#fff'}}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                   <NavLogo to='/' onClick={toggleHome} scrollNav={scrollNav}>
-                       <h1>Mochila</h1>
-                    </NavLogo>
-                    <MobileIcon onClick={toggle}>
-                        <FaBars />
-                    </MobileIcon>
-                    <NavMenu>
-                        <NavItem>
-                            <NavLinks to='about' smooth={true} duration={500} spy={true}  offset={-100} activeClass='active'>Sobre la mochila</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to='stories' smooth={true} duration={500} spy={true}  offset={-70} activeClass='active'>Historias</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to='guided' smooth={true} duration={500} spy={true}  offset={-100} activeClass='active'>Visitas Guiadas</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to='contact' smooth={true} duration={500} spy={true}  offset={-100} activeClass='active'>Contacto</NavLinks>
-                        </NavItem>
-                        <NavBtn to='/experiencies'>
-                            <NavBtnLink scrollNav={scrollNav}>Experiencias</NavBtnLink>
-                        </NavBtn>
-                    </NavMenu>
-               </NavbarContainer>
+                        <NavLogo to='/' onClick={toggleHome} scrollNav={scrollNav}>
+                            <h1>Mochila</h1>
+                            </NavLogo>
+                            <MobileIcon onClick={toggle}>
+                                <FaBars />
+                            </MobileIcon>
+                            <NavMenu>
+                                <NavItem>
+                                    <NavLinks to='about' smooth={true} duration={500} spy={true}  offset={-100} activeClass='active'>Sobre la mochila</NavLinks>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLinks to='stories' smooth={true} duration={500} spy={true}  offset={-70} activeClass='active'>Historias</NavLinks>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLinks to='guided' smooth={true} duration={500} spy={true}  offset={-100} activeClass='active'>Visitas Guiadas</NavLinks>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLinks to='contact' smooth={true} duration={500} spy={true}  offset={-100} activeClass='active'>Contacto</NavLinks>
+                                </NavItem>
+                                <NavBtn to='/experiencies'>
+                                    <NavBtnLink scrollNav={scrollNav}>Experiencias</NavBtnLink>
+                                </NavBtn>
+                            </NavMenu>
+                    </NavbarContainer>
                 </Nav>
             </IconContext.Provider>
         </>

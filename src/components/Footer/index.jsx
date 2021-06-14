@@ -16,11 +16,11 @@ const Footer = () => {
                 <FooterInputWrapper>
                     <FooterInput placeholder='Ingresa tu mail'></FooterInput>
                     <FooterButton to='home'>
-                        Subscribe
+                        Subscribite
                     </FooterButton>
                 </FooterInputWrapper>
                 <SocialMediaWrap>  
-                <WebSiteRights>La mochila &copy; {new Date().getFullYear()} All Rights reserved</WebSiteRights>                 
+                    <WebSiteRights>La mochila &copy; {new Date().getFullYear()} All Rights reserved</WebSiteRights>                 
                     <SocialIcons>
                         <SocialIconLink href='https://www.instagram.com/lamochiladepaseo/?hl=es-la' target='_blank' arial-label='Instagram'><FaInstagram/></SocialIconLink>
                         <SocialIconLink href='/' target='_blank' arial-label='Twiiter'><FaTwitter/></SocialIconLink>

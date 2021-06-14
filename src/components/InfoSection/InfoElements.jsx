@@ -2,19 +2,29 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
    color: #fff;
-   background: ${({lightBg}) => (lightBg ? 'white':'#ffccbf')}; 
+   background: ${({lightBg}) => (lightBg ? 'white':'#ffded5')}; 
    @media screen and (max-width:768px){
-    padding: 100px 0;
+    padding: 2.5rem 0;
    }
 `
 export const InfoWrapper = styled.div`
     display: grid;
-    z-index: 1;
     width: 100%;
-    max-width: 1100px;
     margin: 1rem auto;
-    padding: 0 24px;
+    padding: 0 30px;
     justify-content: center;
+    @media screen and (min-width: 640px){
+        max-width: 600px;
+    }
+    @media screen and (min-width: 768px){
+        max-width: 700px;
+    }
+    @media screen and (min-width: 1024px){
+        max-width: 980px;
+    }
+    @media screen and (min-width: 1280px){
+        max-width: 1100px;
+    }
 `
 export const InfoRow = styled.div`
     display: grid;
@@ -28,12 +38,12 @@ export const InfoRow = styled.div`
 `
 export const Column1 = styled.div`
     margin-bottom: 15px;
-    padding: 0 15px;
+
     grid-area: col1;
 `
 export const Column2 = styled.div`
     margin-bottom:15px;
-    padding: 0 15px;
+
     grid-area: col2;
 `
 export const TextWrapper = styled.div`
@@ -43,7 +53,7 @@ export const TextWrapper = styled.div`
 `
 export const TopLine = styled.div`
     color: #FD475D;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -52,20 +62,21 @@ export const TopLine = styled.div`
 `
 export const Heading = styled.h1`
     margin-bottom: 24px;
-    font-size: 36px;
+    font-size: 2rem;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? '#FD475D':'#FD475D ')}; 
+    color: ${({lightText}) => (lightText ? '#FD475D':'#9ad5d6 ')}; 
     @media screen and (max-width:480px){
-     font-size: 32px;
+     font-size: 2rem;
     }
 `
 export const Subtitle = styled.p`
     max-width: 440px;
     margin-bottom: 35px;
-    font-size: 18px;
-    line-height: 24px;
-    color: ${({darkText}) => darkText ? '#FD475D ' :'#FD475D'};
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.5rem;
+    color: ${({darkText}) => darkText ? '#555 ' :'#FD475D'};
 `
 export const BtnWrap = styled.div`
     display: flex;
@@ -81,7 +92,15 @@ export const ImgWrap = styled.div`
 `
 
 export const Img = styled.img`
-    width:80%;
+    width:75%;
     margin: 2rem 0;
     padding-right: 0;
+    @media screen and (min-width: 640px){
+       width:60%;    }
+    @media screen and (min-width: 768px){
+        grid-template-columns: 1fr 1fr;
+       width:70%;    }
+    @media screen and (min-width: 1024px){
+       width:75%;
+    }
 ` 

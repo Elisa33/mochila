@@ -2,17 +2,29 @@ import styled from 'styled-components';
 
 
 export const FooterContainer = styled.footer`
-    background-color: #AED4D5  ;
+    background-color: #9ad5d6  ;
 ` 
 export const FooterWrap = styled.div`
-    width: 85%;
-    padding: 48px 0px;
+
+    padding: 30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1100px;
     margin: 0 auto;
+    @media screen and (min-width: 640px){
+        max-width: 600px;
+    }
+    @media screen and (min-width: 768px){
+        grid-template-columns: 1fr 1fr;
+        max-width: 700px;
+    }
+    @media screen and (min-width: 1024px){
+        max-width: 980px;
+    }
+    @media screen and (min-width: 1280px){
+        max-width: 1100px;
+    }
 ` 
 
 export const FooterTitle = styled.h2`
@@ -48,7 +60,7 @@ export const FooterInputWrapper = styled.div`
     }
 ` 
 export const FooterInput = styled.input`
-    font-size: 14px;
+    font-size: 0.9rem;
     padding: 8px 10px;
     border: 1px solid transparent;
     color: #222;
@@ -62,7 +74,7 @@ export const FooterButton = styled.button`
     padding: 8px 10px;
     border: 1px solid transparent;
     background-color: #FBAFAF;
-    font-size: 14px;
+    font-size: 1rem;
     &:hover{
         background-color: #FD475D ;
         transition: 0.3s ease-out;
@@ -75,12 +87,11 @@ export const SocialMedia = styled.section`
 `
 
 export const SocialMediaWrap = styled.div`
-    margin-top: 3rem;
+    margin-top: 2rem;
     width:100%;
     display:flex;
     justify-content: space-between;
     max-width: 1100px;
-
 `
 
 export const WebSiteRights = styled.small`
@@ -90,12 +101,12 @@ export const WebSiteRights = styled.small`
 `
 export const SocialIcons = styled.div`
     display:flex;
-    justify-content: center;
+    justify-content: flex-end;
     gap:1rem;
     align-items: center;
     width:240px;
 `
 export const SocialIconLink = styled.a`
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
 `

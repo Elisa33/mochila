@@ -38,7 +38,7 @@ export const VideoBg = styled.video`
     height:100%;
     -o-object-fit: cover;
     object-fit: cover;
-    /* background: black; */
+    /* background: #555; */
 `
 
 export const HeroContent = styled.div`
@@ -53,28 +53,28 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
     color: #fff;
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
-    @media screen and (max-width: 768px){
-        font-size: 40px;
+    @media screen and (min-width: 640px){
+        font-size: 2.5rem;
     }
-    @media screen and (max-width: 480px){
-        font-size: 32px;
+    @media screen and (min-width: 768px){
+        font-size: 3rem;
     }
 `
 
 export const HeroP = styled.p`
     margin-top: 24px;
     color: #fff;
-    font-size: 24px;
+    font-size: 1rem;
     text-align: center;
     max-width: 600px;
     font-weight: lighter;
-    @media screen and (max-width: 768px){
-        font-size: 24px;
+    @media screen and (min-width: 640px){
+        font-size: 1.2rem;
     }
-    @media screen and (max-width: 480px){
-        font-size: 16px;
+    @media screen and (min-width: 768px){
+        font-size: 1.3rem;
     }
 `
 
@@ -87,5 +87,5 @@ export const HeroBtnWrapper = styled.div`
 
 export const ArrowRight = styled(HiChevronRight)`
     margin-left: 8px;
-    font-size: 20px;
+    font-size: 1.5rem;
 `

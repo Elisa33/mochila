@@ -4,7 +4,6 @@ import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
     background-color: ${({ scrollNav}) => (scrollNav ? '#FD475D ': 'transparent')};
-    /* background-color: #ffccbf; */
     height:70px;
     margin-top: -70px;
     display: flex;
@@ -15,7 +14,7 @@ export const Nav = styled.nav`
     top: 0;
     z-index: 10;
 
-    @media screen and (max-width: 960px){
+    @media screen and (min-width: 768px){
     transition: 0.8s all ease;
     }
 `
@@ -23,11 +22,24 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 80px;
     z-index: 1;
     width: 100%;
     padding: 0 30px;
-    max-width: 1100px;
+    margin: 0 auto;
+    @media screen and (min-width: 640px){
+    max-width: 600px;
+    }
+    @media screen and (min-width: 768px){
+    max-width: 700px;
+    }
+    @media screen and (min-width: 1024px){
+    max-width: 980px;
+    }
+    @media screen and (min-width: 1280px){
+        max-width: 1100px;
+    }
 `
 
 export const NavLogo = styled(LinkR)`
@@ -43,19 +55,15 @@ export const NavLogo = styled(LinkR)`
 `
 
 export const MobileIcon = styled.div`
-    display: none;
+    font-size: 1.8rem;
+        cursor: pointer;
+        color:#fff;
 
-    @media screen and (max-width: 768px){
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%,60%);
+    @media screen and (min-width: 1024px){
+        display: none;
         font-size: 1.8rem;
         cursor: pointer;
         color:#fff;
-        /* outline: none;
-        background: transparent;*/
 }
 `
 
@@ -104,7 +112,7 @@ export const NavBtnLink = styled(LinkR)`
         white-space: nowrap;
         padding: 10px 22px;
         color: ${({ scrollNav}) => (scrollNav ? '#FD475D': '#fff')};
-        font-size: 16px;
+        font-size: 1rem;
         outline: none;
         border: none;
         cursor: pointer;

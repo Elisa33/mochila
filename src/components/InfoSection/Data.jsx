@@ -8,15 +8,15 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'San Telmo',
-    headline: 'Café la poesía',
-    description: 'Te invitamos a descubrir la magia de uno de los cafés notables de San Telmo',
-    buttonLabel: 'Leer más',
+    headline: 'Bar Notable La Poesía',
+    description: '¿Conocés éste Bar Notable? Te invitamos a descubrir la magia de uno de los cafés notables de San Telmo. Tal como reza la placa de mármol en su puerta " Bar literario, café de arte y esquina de encuentro", en esta nota encontrarás su historia, tips para visitarlo y mucho mas!',
+    buttonLabel: 'Seguir leyendo',
     imgStart: false,
     img: adventure,
     alt: 'imagen',
     dark: true,
-    primary: false,
-    darkText: false
+    primary: true,
+    darkText: true
 }
 
 export const homeObjTwo = {
@@ -32,7 +32,7 @@ export const homeObjTwo = {
     img: exploring,
     alt: 'imagen',
     dark: false,
-    primary: true,
+    primary: false,
     darkText: true
 }
 
@@ -49,6 +49,6 @@ export const homeObjThree = {
     img: biking,
     alt: 'imagen',
     dark: true,
-    primary: false,
-    darkText: false
+    primary: true,
+    darkText: true
 }

@@ -10,24 +10,26 @@ const Sidebar = ({isOpen, toggle}) => {
                 </Icon>
                 <SidebarWrapper>
                     <SidebarMenu>
-                        <SidebarLink to='about' onClick={toggle}>
+                        <SidebarLink to='about' offset={-100}onClick={toggle}>
                             Sobre la mochila
                         </SidebarLink>
-                        <SidebarLink to='stories' onClick={toggle}>
+                        <SidebarLink to='stories' offset={-100} onClick={toggle}>
                             Historias
                         </SidebarLink>
-                        <SidebarLink to='visits' onClick={toggle}>
+                        <SidebarLink to='visits' offset={-70} onClick={toggle}>
                             Visitas Guiadas
                         </SidebarLink>
-                        <SidebarLink to='footer' onClick={toggle}>
+                        <SidebarLink to='contact' offset={-100} onClick={toggle}>
                             Contacto
                         </SidebarLink>
+
+                        <SidebarBtnWrap>
+                            <SidebarRoute to='/experiencies'>
+                                Experiencias
+                            </SidebarRoute>
+                        </SidebarBtnWrap>
                     </SidebarMenu>
-                    <SidebarBtnWrap>
-                        <SidebarRoute to='/experiencies'>
-                            Experiencias
-                        </SidebarRoute>
-                    </SidebarBtnWrap>
+                   
                 </SidebarWrapper>
             </SidebarContainer>
             
