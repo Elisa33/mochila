@@ -1,12 +1,15 @@
 import React, { useState, useEffect }from 'react';
 import { FaBars } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
-
+import {wlogo} from '../../images/images.jsx'
+/* import { plogo} from '../../images/images.jsx' */
 /* Esto sirve para cambiar el color de los iconos cuando estan dentro del contenedor correspondiente */
 import { IconContext } from 'react-icons/lib';
 import { Nav, 
         NavbarContainer, 
         NavLogo, 
+       /*  LogoP, */
+        LogoW,
         MobileIcon, 
         NavMenu,
         NavItem, 
@@ -39,8 +42,12 @@ const Navbar = ({toggle}) => {
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
                         <NavLogo to='/' onClick={toggleHome} scrollNav={scrollNav}>
-                            <h1>Mochila</h1>
-                            </NavLogo>
+              
+                            {/* <LogoP><img src={plogo} alt="" /></LogoP> */}
+                            <LogoW><img src={wlogo} alt="" /></LogoW>
+                            <h1>La Mochila de paseo</h1>
+                            
+                        </NavLogo>
                             <MobileIcon onClick={toggle}>
                                 <FaBars />
                             </MobileIcon>

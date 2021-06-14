@@ -43,15 +43,27 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-    color: ${({ scrollNav}) => (scrollNav ? '#fff': '#FD475D')};
+    color: ${({ scrollNav}) => (scrollNav ? '#fff': '#fff')};
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 0.7rem;
     display: flex;
     align-items: center;
-    /* margin-left: 24px; */
+    line-height: 1rem;
+    width: 45%;
     font-weight: bold;
-    text-decoration: none;    
+    text-decoration: none; 
+    img{
+        width: 2.8rem;
+        margin-right: 0.5rem;
+    } 
+      
+`
+/* export const LogoP = styled.div`
+   display: ${({ scrollNav}) => (scrollNav ? 'flex': 'none')};
+` */
+export const LogoW = styled.div`
+   display: ${({ scrollNav}) => (scrollNav ? 'none': 'flex')};
 `
 
 export const MobileIcon = styled.div`
