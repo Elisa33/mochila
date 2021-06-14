@@ -1,6 +1,6 @@
 import React from 'react'
-import { Button } from '../ButtonElement';
-import { StyledContact, StyledContactWrap, StyledContactP, ButtonWrap } from './ContactElements';
+import { FaWhatsapp } from 'react-icons/fa';
+import { StyledContact, StyledContactWrap, StyledContactP, ButtonWrap, ButtonWhatsapp } from './ContactElements';
 import contactimg from '../../images/exploring.svg'
 
 const Contact = () => {
@@ -13,18 +13,7 @@ const Contact = () => {
                 <p>En nuestra mochila guardamos mapas, planos, datos, experiencias y muchas cosas más que esperan ser develadas.</p> 
                 <h2>¿Te animas a descubrirlas?</h2>
                  <ButtonWrap>
-                    <Button to='footer'
-                        smooth={true}
-                        duration={500}
-                        spy={true}
-                        exact='true'
-                        offset={-80}
-                        primary={false ? 1 : 0}
-                        dark={false ? 1 : 0}
-                        dark2={true ? 1 : 0}
-                        >
-                            Contacto
-                    </Button>
+                    <ButtonWhatsapp href="https://walink.co/be785e" target="_blank">Contáctanos<FaWhatsapp/></ButtonWhatsapp>
                  </ButtonWrap>
                  
                 

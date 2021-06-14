@@ -48,5 +48,32 @@ export const StyledContactP = styled.p`
 
 export const ButtonWrap = styled.div`
     width: 65%;
+    display: flex;
      /* margin: 2rem auto; */
+`
+export const ButtonWhatsapp = styled.a`
+    border-radius:50px;
+    background: #FD475D;
+    white-space: nowrap;
+    padding:  14px 48px;
+    color: #fff;
+    font-size:  1rem ;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    &:hover{
+        color:  #fff;
+        transition: 0.2s ease-in-out;
+        background: #ffde5e;
+    }
+    svg{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 0.5rem;
+    }
 `
