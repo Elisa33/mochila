@@ -27,7 +27,7 @@ export const StyledAbout = styled.div`
     }
     p{
         font-size: 0.9rem;
-        color:#555;
+        color:#444;
         
     }
     span{
@@ -65,7 +65,7 @@ export const StyledAboutMe = styled.div`
         font-size: 0.8rem;
         margin: 0.5rem 0;
         font-weight: normal;
-        color:#555 ;
+        color:#444 ;
     }
     p{
         align-self: center;
@@ -73,7 +73,7 @@ export const StyledAboutMe = styled.div`
         margin-bottom: 1rem;
         font-weight: lighter;
         height: 5rem;
-        color:#555;
+        color:#444;
         @media screen and (min-width: 640px){
             height: 2.5rem;
         }

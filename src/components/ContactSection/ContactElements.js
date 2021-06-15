@@ -34,7 +34,7 @@ export const StyledContactP = styled.p`
     font-size: 1rem;
     line-height: 1.2rem;
     font-weight: lighter;
-    color:#555;
+    color:#444;
     h2{
         font-size: 1.5rem;
         margin: 2rem auto;

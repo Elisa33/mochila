@@ -86,7 +86,7 @@ export const SidebarRoute = styled(LinkR)`
     transition:0.2s ease-in-out;
     &:hover{
         background:#fff;
-        color:#555;
+        color:#444;
         transition:0.2s ease-in-out;
 
     }

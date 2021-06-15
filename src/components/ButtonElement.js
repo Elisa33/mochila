@@ -16,7 +16,7 @@ export const Button = styled(Link)`
     align-items: center;
     transition: 0.2s ease-in-out;
     &:hover{
-        color:  ${({primary}) => (primary ? '#555' : '#fff')};
+        color:  ${({primary}) => (primary ? '#444' : '#fff')};
         transition: 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#fff' : '#ffde5e')};
     }

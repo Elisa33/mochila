@@ -110,7 +110,7 @@ export const ServicesH2 = styled.h2`
 ` 
 
 export const ServicesP = styled.p`
-    color: #555 ;
+    color: #444 ;
     font-size: 0.9rem;
     text-align: left;
     font-weight: lighter;
