@@ -18,9 +18,9 @@ export const HeroContainer = styled.div`
         right:0;
         bottom:0;
         left:0;
-        background: linear-gradient(60deg, #FD475D     0%, transparent 100%);
+        background: linear-gradient( #FD475D  -15%, transparent 100%);
         z-index:2;
-        /* mix-blend-mode: overlay; */
+        /* mix-blend-mode: multiply; */
     }
 `
 
@@ -38,7 +38,7 @@ export const VideoBg = styled.video`
     height:100%;
     -o-object-fit: cover;
     object-fit: cover;
-    /* background: #555; */
+    /* background: #444; */
 `
 
 export const HeroContent = styled.div`
