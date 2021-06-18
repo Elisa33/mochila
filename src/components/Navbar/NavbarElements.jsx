@@ -63,7 +63,11 @@ export const NavLogo = styled(LinkR)`
    display: ${({ scrollNav}) => (scrollNav ? 'flex': 'none')};
 ` */
 export const LogoW = styled.div`
-   display: ${({ scrollNav}) => (scrollNav ? 'none': 'flex')};
+   display: flex;
+   img{
+    width: 110px;
+   }
+
 `
 
 export const MobileIcon = styled.div`
@@ -71,7 +75,7 @@ export const MobileIcon = styled.div`
         cursor: pointer;
         color:#fff;
 
-    @media screen and (min-width: 1024px){
+    @media screen and (min-width: 768px){
         display: none;
         font-size: 1.8rem;
         cursor: pointer;

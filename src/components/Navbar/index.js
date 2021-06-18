@@ -8,7 +8,6 @@ import { IconContext } from 'react-icons/lib';
 import { Nav, 
         NavbarContainer, 
         NavLogo, 
-       /*  LogoP, */
         LogoW,
         MobileIcon, 
         NavMenu,
@@ -42,11 +41,7 @@ const Navbar = ({toggle}) => {
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
                         <NavLogo to='/' onClick={toggleHome} scrollNav={scrollNav}>
-              
-                            {/* <LogoP><img src={plogo} alt="" /></LogoP> */}
                             <LogoW><img src={wlogo} alt="" /></LogoW>
-                            <h1>La Mochila de paseo</h1>
-                            
                         </NavLogo>
                             <MobileIcon onClick={toggle}>
                                 <FaBars />
