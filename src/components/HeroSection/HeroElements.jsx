@@ -52,14 +52,17 @@ export const HeroContent = styled.div`
 `
 
 export const HeroH1 = styled.h1`
+    font-family: 'Pacifico', cursive;
     color: #fff;
-    font-size: 3rem;
+    line-height: 3.5rem;
+    font-size: 3.5rem;
     text-align: center;
     @media screen and (min-width: 640px){
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
     @media screen and (min-width: 768px){
-        font-size: 3rem;
+        font-size: 3.8rem;
+        line-height: 5.8rem;
     }
 `
 

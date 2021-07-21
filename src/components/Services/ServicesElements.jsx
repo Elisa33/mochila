@@ -37,6 +37,7 @@ export const ServicesWrapper = styled.div`
 ` 
 
 export const ServicesCard = styled.div`
+    position:relative;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -74,13 +75,13 @@ export const ServicesCard = styled.div`
 ` 
 
 export const ServicesImg = styled.img`
+    
     height: 14rem;
-    width:100%;
+    width: 100%;
     object-fit: cover;
     margin-bottom: 10px;
 ` 
 export const ServicesInfo = styled.div`
-    
     padding: 0.5rem 1rem;
 `
 export const ServicesH1 = styled.h1`
@@ -94,6 +95,26 @@ export const ServicesH1 = styled.h1`
 ` 
 
 export const ServicesH2 = styled.h2`
+    position: absolute;
+    height: 14rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #FFF ;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    height: 3rem;
+
+    @media screen and (min-width: 768px){
+        height: 5rem;
+    }
+    @media screen and (min-width: 1024px){
+        height: 5rem;
+    }
+` 
+export const ServicesH3 = styled.h3`
+    
     color: #FD475D ;
     font-size: 1.3rem;
     height: 3rem;
