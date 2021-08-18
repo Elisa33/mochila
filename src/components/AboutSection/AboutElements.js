@@ -84,7 +84,9 @@ export const StyledAboutMe = styled.div`
             height: 3rem;
         }
     }
-    a{
+
+`
+export const PlusButton = styled.button`
         width: 2rem;
         height: 2rem;
         display: flex;
@@ -93,15 +95,17 @@ export const StyledAboutMe = styled.div`
         margin: 1rem auto;
         align-self: center;
         font-size: 2rem;
+        font-weight: 100;
         color: #fff;
         background: #F9CC87;
         border-radius: 50%;
         padding: 20px;
         text-decoration: none;
+        border: none;
         &:hover{
             font-size:2.5rem ;
             transition: all 0.2s ease-in-out;
+            font-weight: 400;
         }
-    }
 
 `
