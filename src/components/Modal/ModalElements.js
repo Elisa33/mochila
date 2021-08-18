@@ -20,9 +20,15 @@ export const Container = styled.div`
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     position: relative;
-    padding: 2rem;
+    padding: 1rem 2rem;
+    img{
+        width: 9rem;
+    }
+    p{
+        height: auto;
+    }
 `
 
 export const Close = styled.button`
