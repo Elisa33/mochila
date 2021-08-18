@@ -13,8 +13,6 @@ export const Background = styled.div`
     z-index:20;
 `
 export const Container = styled.div`
-    width: 80%;
-    height: 80%;
     background-color: pink;
     color: white;
     border-radius: 2rem;
@@ -23,11 +21,39 @@ export const Container = styled.div`
     gap: 1rem;
     position: relative;
     padding: 1rem 2rem;
+
     img{
         width: 9rem;
+        @media screen and (min-width: 375px){
+            width: 6rem;
+        }
     }
     p{
         height: auto;
+        font-size: 1rem;
+        @media screen and (min-width: 375px){
+            font-size: 0.7rem;
+        }
+    }
+    @media screen and (min-width: 375px){
+       width: 85%;
+       height: 90%;
+    }
+    @media screen and (min-width: 640px){
+       width: 70%;
+       height: 80%;
+       p{
+
+           font-size: 0.8rem;
+       }
+    }
+    @media screen and (min-width: 768px){
+       width: 70%;
+       height: 70%;
+    }
+    @media screen and (min-width: 1024px){
+       width: 60%;
+       height: 70%;
     }
 `
 
