@@ -1,6 +1,6 @@
 # La mochila de paseo
-personal project - reactJS
+personal project - fontend dev & designer
 
 
 Technologies:
-* react 
+* reactJS 
